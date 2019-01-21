@@ -7,15 +7,17 @@
     <?php wp_head(); ?>
   </head>
   <body>
+
     <header>
-      <nav>
-        <ul>
-          <li id="section1">Section1</li>
-          <li id="section1" >Section2</li>
-          <li id="section1" >Section3</li>
-        </ul>
-      </nav>
+      <div class="menu-container">
+        
+        <nav class="menu">
+          <ul class="row">
+            <li id="section1" class="col text-center" >Section1</li>
+            <li id="section1" class="col text-center" >Section2</li>
+            <li id="section1" class="col text-center" >Section3</li>
+          </ul>
+        </nav>
+      </div>
 
-
-      <h2>This is the header</h2>
     </header>
