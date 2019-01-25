@@ -10,12 +10,14 @@
 
     <header>
       <div class="menu-container">
-        
+        <div class="logo">
+          Vagabundo
+        </div>
         <nav class="menu">
           <ul class="row">
-            <li id="section1" class="col text-center" >Section1</li>
-            <li id="section1" class="col text-center" >Section2</li>
-            <li id="section1" class="col text-center" >Section3</li>
+            <li id="section1" class="col text-center" >Proximos Viajes</li>
+            <li id="section1" class="col text-center" >Autobuses</li>
+            <li id="section1" class="col text-center" >Agencia de Viajes</li>
           </ul>
         </nav>
       </div>

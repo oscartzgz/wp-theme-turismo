@@ -8,6 +8,46 @@ Author URI: https://oscartzgz.com
 
 @import url('https://fonts.googleapis.com/css?family=Faster+One');
 
+body{
+  overflow-x: hidden;
+}
+
+header .logo {
+  color: white;
+  position: fixed;
+  top: 10px;
+  left: 60px;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px black;
+}
+
+#agency{
+  padding: 150px 0;
+}
+
+#agency .title {
+  text-transform: uppercase;
+  color: #FF5B9B;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#agency .subtitle {
+  color: #9B9B9B;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#carouselExampleSlidesOnly{
+  background-color: grey;
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 700px;
+}
 
 #footer{
   background-color: #383838;
@@ -43,6 +83,7 @@ Author URI: https://oscartzgz.com
 }
 
 #travels .title {
+  text-transform: uppercase;
   color: #FF5B5B;
   font-size: 4em;
   font-weight: bold;
@@ -81,6 +122,25 @@ Author URI: https://oscartzgz.com
   height: 100%;
 }
 
+#units{
+  background-color: #FAFAFA;
+  padding: 150px 0;
+}
+
+#units .title {
+  text-transform: uppercase;
+  color: #FF5B5B;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#units .subtitle {
+  color: #9B9B9B;
+  font-size: 1.7em;
+  text-align: center;
+}
+
 #welcome{
   display: grid;
   grid-template-columns: auto auto;
@@ -100,23 +160,28 @@ Author URI: https://oscartzgz.com
   text-shadow: 1px 1px 10px black;
 }
 
+.menu{
+
+}
+
 .menu ul{
   list-style-type: none;
 }
 
 .menu ul li{
-  font-size: 1.2em;
+  font-size: 1.4em;
   border-radius: 50px;
   background-color: rgba(240, 240, 240, 0.6);
-  margin: 0 3em;
-  padding: .5em;
+  margin: 0 1.5em;
+  padding: .3em;
 }
 
 .menu-container{
-  padding: .5em;
+  padding: .3em;
   position: fixed;
   margin-left: auto;
   margin-right: auto;
-  left: 200px;
-  right: 200px;
+  left: 400px;
+  right: 400px;
+  z-index: 999;
 }
