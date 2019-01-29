@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
 <section id="welcome">
-  <div id="home-video"></div>
+  <video autoplay muted loop id="home-video">
+    <source src="<?php echo get_template_directory_uri() ?>/video/video.webm" type="video/webm">
+  </video>
   <h2 class="big-message">Viaja con <br> nosotros</h2>
 </section>
 
@@ -15,22 +17,23 @@
 
   <div class="content">
     <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/travel1.jpeg" alt="travel_image">
+      <img src="<?php echo get_template_directory_uri() ?>/img/six_terros-02.png" alt="travel_image">
     </div>
     <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/travel1.jpeg" alt="travel_image">
+      <img src="<?php echo get_template_directory_uri() ?>/img/fresnillo-02.png" alt="travel_image">
     </div>
     <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/travel1.jpeg" alt="travel_image">
-    </div>
-
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/travel1.jpeg" alt="travel_image">
+      <img src="<?php echo get_template_directory_uri() ?>/img/basílica-02.png" alt="travel_image">
     </div>
     <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/travel1.jpeg" alt="travel_image">
+      <img src="<?php echo get_template_directory_uri() ?>/img/chiapas.png" alt="travel_image">
     </div>
-
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/ixtapa.png" alt="travel_image">
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/chignahuapan-02.png" alt="travel_image">
+    </div>
   </div>
 </section>
 
@@ -69,11 +72,18 @@
   </div>
 </section>
 
-<section id="agency">
-  <div class="title">This is the cool Travel Agency</div>
-  <div class="subtitle">We can make the better experience for you, call us!</div>
+<section id="agency" style="background-image: url('<?php echo get_template_directory_uri() ?>/img/agency2.jpg')">
+  <div class="title">Viajes a tu medida</div>
+  <div class="subtitle">Planear un viaje es dificil, nosotros lo hacemos por ti</div>
   <div class="content">
-    Here we have the content for the agency section
+    <div class="row align-items-center">
+      <div class="col-lg-6 text-right">
+        <img class="agency-logo" src="<?php echo get_template_directory_uri() ?>/img/agencia_logo.png" alt="logo agencia sahagun">
+      </div>
+      <div class="col-lg-6">
+        <div class="copy">No te preocupes, nosotros nos encargamos de que tu experiencia sea la mejor. Nuestra agencia de viajes se encargará de resolver los problemas de transporte y alojamiento, puedes estar tranquilo.</div>
+      </div>
+    </div>
   </div>
 </section>
 

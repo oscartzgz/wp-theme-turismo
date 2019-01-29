@@ -12,6 +12,20 @@ body{
   overflow-x: hidden;
 }
 
+header{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+ 
+  z-index: 999;
+  /* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+  background: -webkit-linear-gradient(black, transparent);
+  background: -o-linear-gradient(black, transparent);
+  background: linear-gradient(black, transparent);
+}
+
 header .logo {
   color: white;
   position: fixed;
@@ -23,20 +37,43 @@ header .logo {
   text-shadow: 1px 1px 4px black;
 }
 
+header .call-us {
+  font-size: .9em;
+  color: white;
+  margin-bottom: .3em;
+  margin-top: .2em;
+}
+
 #agency{
+  height: 100vh;
   padding: 150px 0;
+  background-size: cover;
+}
+
+#agency .agency-logo{
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#agency .copy{
+  font-size: 1.45em;
+  margin-left: 10%;
+  margin-right: 20%;
+  line-height: 2em;
+  text-shadow: 1px 1px 4px white;
 }
 
 #agency .title {
   text-transform: uppercase;
-  color: #FF5B9B;
+  color: #C91522;
   font-size: 4em;
   font-weight: bold;
   text-align: center;
 }
 
 #agency .subtitle {
-  color: #9B9B9B;
+  color: #7B6A6A;
   font-size: 1.7em;
   text-align: center;
 }
@@ -112,7 +149,6 @@ header .logo {
 
 #travels .item img{
   /*position: absolute;*/
-  display: block;
   object-fit: cover;
   /*top: 0;
   left: 0;
@@ -161,7 +197,7 @@ header .logo {
 }
 
 .menu{
-
+  border-top: 2px solid white;
 }
 
 .menu ul{
@@ -169,19 +205,29 @@ header .logo {
 }
 
 .menu ul li{
-  font-size: 1.4em;
   border-radius: 50px;
-  background-color: rgba(240, 240, 240, 0.6);
   margin: 0 1.5em;
   padding: .3em;
 }
 
+.menu li a{
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+}
+
+.menu li a:hover{
+  text-decoration-line: none;
+}
+
 .menu-container{
-  padding: .3em;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.logo-container img{
   position: fixed;
-  margin-left: auto;
-  margin-right: auto;
-  left: 400px;
-  right: 400px;
-  z-index: 999;
+  top: 0;
+  width: 180px;
+  margin-left: 2em;
 }

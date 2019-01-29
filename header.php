@@ -9,15 +9,30 @@
   <body>
 
     <header>
-      <div class="menu-container">
-        <div class="logo">
-          Vagabundo
+      <div class="logo-container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="logo benittur vagabundo">
+          </div>
         </div>
+      </div>
+
+      <div class="call-us text-center">
+        Llamanos 775 123 4567
+      </div>
+
+      <div class="menu-container">
         <nav class="menu">
           <ul class="row">
-            <li id="section1" class="col text-center" >Proximos Viajes</li>
-            <li id="section1" class="col text-center" >Autobuses</li>
-            <li id="section1" class="col text-center" >Agencia de Viajes</li>
+            <li id="section1" class="col text-center" >
+              <a href="#travels">Viajes</a>
+            </li>
+            <li id="section1" class="col text-center" >
+              <a href="#units">Unidades</a>
+            </li>
+            <li id="section1" class="col text-center" >
+              <a href="#agency">Agencia de viajes</a>
+            </li>
           </ul>
         </nav>
       </div>
