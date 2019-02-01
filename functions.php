@@ -6,6 +6,7 @@
     wp_enqueue_style( 'theme-style', get_template_directory_uri() . '/style.css' );
     // All scripts
     wp_enqueue_script( 'bootstrap',  get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array( 'jquery' ) );
+    wp_enqueue_script( 'sitejs',  get_template_directory_uri() . '/js/site.js', array( 'jquery' ) );
   }
 
   add_action( 'wp_enqueue_scripts', 'themebenittur_enqueue_scripts' );

@@ -4,7 +4,12 @@
   <video autoplay muted loop id="home-video">
     <source src="<?php echo get_template_directory_uri() ?>/video/video.webm" type="video/webm">
   </video>
-  <h2 class="big-message">Viaja con <br> nosotros</h2>
+  <div class="pattern-overlay"></div>
+  <div class="row">
+    <div class="col-lg-10 offset-lg-1 text-center">
+      <h2 class="big-message">Los mejores viajes a tu alance</h2>
+    </div>
+  </div>
 </section>
 
 <section id="travels">
@@ -38,33 +43,122 @@
 </section>
 
 <section id="units">
+  <div class="background"></div>
   <div class="title">CONTAMOS CON LAS MEJORES UNIDADES</div>
-  <div class="subtitle">Descubre la que mejor se adapta a tus necesidades</div>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div class="subtitle bg-white">Descubre la que mejor se adapta a tus necesidades</div>
+    </div>
+  </div>
 
   <div class="content">
     <div class="row">
-      <div class="col-sm-12 text-center">
+      <div class="col-sm-12">
         
+        <!-- Menu SLIDER -->
+        <div class="menu-slider">
+          <ul class="row">
+            <li class="col text-center">
+              <span class="button" href="#" onclick="jQuery('#carouselExampleSlidesOnly').carousel(0);">Vehiculo UNO</span>
+            </li>
+            <li class="col text-center">
+              <span class="button" href="#" onclick="jQuery('#carouselExampleSlidesOnly').carousel(1);">Vehiculo DOS</span>
+            </li>
+            <li class="col text-center">
+              <span class="button" href="#" onclick="jQuery('#carouselExampleSlidesOnly').carousel(2);">Vehiculo TRES</span>
+            </li>
+          </ul>
+        </div>
+
         <!-- SLIDER CON LOS AUTOBUSES -->
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
+
+            <!-- Default Active Item -->
+
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-sm-6">
-                  <img src="" alt="automovile">
+                <div class="col-sm-8">
+                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/bus1.png" alt="First slide">
                 </div>
-                <div class="col-sm-6">
-                  <strong>This is another element</strong>
-                  <img class="d-block w-100" src="..." alt="First slide">
+                <div class="col-sm-4">
+                  <div class="specs-container">
+                    <div class="header text-center">
+                      Vehiculo UNO
+                    </div>
+                    <div class="body">
+                      <ul>
+                        <li><i class="material-icons">grade</i> Comodo</li>
+                        <li><i class="material-icons">grade</i> Perron</li>
+                        <li><i class="material-icons">grade</i> Veloz</li>
+                        <li><i class="material-icons">grade</i> La Onda</li>
+                        <li><i class="material-icons">grade</i> W.C.</li>
+                      </ul>
+                    </div>
+                    <div class="footer text-center">
+                      <span class="button">Ver Diagrama</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+
             <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Second slide">
+              <div class="row">
+                <div class="col-sm-8">
+                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/bus1.png" alt="First slide">
+                </div>
+                <div class="col-sm-4">
+                  <div class="specs-container">
+                    <div class="header text-center">
+                      Vehiculo DOOS
+                    </div>
+                    <div class="body">
+                      <ul>
+                        <li><i class="material-icons">grade</i> Comodo</li>
+                        <li><i class="material-icons">grade</i> Perron</li>
+                        <li><i class="material-icons">grade</i> Veloz</li>
+                        <li><i class="material-icons">grade</i> La Onda</li>
+                        <li><i class="material-icons">grade</i> W.C.</li>
+                      </ul>
+                    </div>
+                    <div class="footer text-center">
+                      <span class="button">Ver Diagrama</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
             <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Third slide">
+              <div class="row">
+                <div class="col-sm-8">
+                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/bus1.png" alt="First slide">
+                </div>
+                <div class="col-sm-4">
+                  <div class="specs-container">
+                    <div class="header text-center">
+                      Vehiculo TREEES
+                    </div>
+                    <div class="body">
+                      <ul>
+                        <li><i class="material-icons">grade</i> Comodo</li>
+                        <li><i class="material-icons">grade</i> Perron</li>
+                        <li><i class="material-icons">grade</i> Veloz</li>
+                        <li><i class="material-icons">grade</i> La Onda</li>
+                        <li><i class="material-icons">grade</i> W.C.</li>
+                      </ul>
+                    </div>
+                    <div class="footer text-center">
+                      <span class="button">Ver Diagrama</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
+
+
           </div>
         </div>
       </div>
@@ -74,7 +168,11 @@
 
 <section id="agency" style="background-image: url('<?php echo get_template_directory_uri() ?>/img/agency2.jpg')">
   <div class="title">Viajes a tu medida</div>
-  <div class="subtitle">Planear un viaje es dificil, nosotros lo hacemos por ti</div>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div class="subtitle bg-white">Planear un viaje es dificil, nosotros lo hacemos por ti</div>
+    </div>
+  </div>
   <div class="content">
     <div class="row align-items-center">
       <div class="col-lg-6 text-right">

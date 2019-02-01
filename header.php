@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title><?php // echo get_bloginfo( 'name' ); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <?php wp_head(); ?>
   </head>
   <body>
