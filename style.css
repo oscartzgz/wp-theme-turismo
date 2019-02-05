@@ -83,11 +83,11 @@ header .call-us {
   box-shadow: 1px 1px 38px #555;
 }
 
-#carouselExampleSlidesOnly{
+#carouselUnits{
   /*background-color: grey;*/
   margin-left: 10%;
   margin-right: 10%;
-  height: 700px;
+  height: 600px;
 }
 
 #footer{
@@ -170,7 +170,7 @@ header .call-us {
 }
 
 #units{
-  padding: 150px 0;
+  padding: 120px 0 40px 0;
   position: relative;
 }
 
@@ -192,20 +192,25 @@ header .call-us {
   padding-top: 80px;
 }
 
+#units .menu-slider{
+  margin-bottom: 2em;
+}
+
 #units .menu-slider ul{
   list-style-type: none;
+  border-bottom: 3px yellow solid;
 }
 
 #units .menu-slider .button{
   /*background-color: red;*/
-  padding: .6em 2em;
+  background-color: #FF7900;
   box-shadow: 1px 1px 8px black;
-  border-radius: .1em;
-  text-decoration: none;
-  color: #393939;
-  font-weight: bold;
-  background-color: white;
+  border-radius: .2em;
+  color: white;
   cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  padding: .6em 2em;
 }
 
 #units .title {
@@ -276,12 +281,12 @@ header .call-us {
   margin: 1em;
   height: 90%;
   position: relative;
-  box-shadow: 1px 1px 24px black;
+  box-shadow: 0px 1px 17px black;
 }
 
 .specs-container .header {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
   background-color: black;
   color: white;
   padding: 1em 0;
@@ -294,8 +299,8 @@ header .call-us {
 
 .specs-container .body {
   background-color: white;
-  padding: 1em;
-  font-size: 1.2em;
+  padding: 1em .6em 1em .6em;
+  font-size: 1em;
   height: 100%;
   padding-top: 6em;
   padding-bottom: 5em;
@@ -305,8 +310,9 @@ header .call-us {
 .specs-container .body ul{
   color: #555;
   list-style-type: none;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.8em;
+  padding-left: 1em;
 }
 
 .specs-container .footer {

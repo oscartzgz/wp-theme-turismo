@@ -53,46 +53,54 @@
 
   <div class="content">
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-sm-12 col-lg-8 offset-xl-2 ">
         
         <!-- Menu SLIDER -->
         <div class="menu-slider">
           <ul class="row">
             <li class="col text-center">
-              <span class="button" href="#" onclick="jQuery('#carouselExampleSlidesOnly').carousel(0);">Vehiculo UNO</span>
+              <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(0);">IRIZAR i8</span>
             </li>
             <li class="col text-center">
-              <span class="button" href="#" onclick="jQuery('#carouselExampleSlidesOnly').carousel(1);">Vehiculo DOS</span>
+              <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(1);">IRIZAR PB</span>
             </li>
             <li class="col text-center">
-              <span class="button" href="#" onclick="jQuery('#carouselExampleSlidesOnly').carousel(2);">Vehiculo TRES</span>
+              <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(2);">IRIZAR NC</span>
+            </li>
+            <li class="col text-center">
+              <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(3);">SPRINTER</span>
+            </li>
+            <li class="col text-center">
+              <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(4);">HIACE</span>
             </li>
           </ul>
         </div>
 
         <!-- SLIDER CON LOS AUTOBUSES -->
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div id="carouselUnits" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
 
             <!-- Default Active Item -->
 
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-sm-8">
-                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/bus1.png" alt="First slide">
+                <div class="col-sm-8 d-flex align-items-center">
+                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-i8.png" alt="First slide">
                 </div>
                 <div class="col-sm-4">
                   <div class="specs-container">
                     <div class="header text-center">
-                      Vehiculo UNO
+                      IRIZAR i8
                     </div>
                     <div class="body">
                       <ul>
-                        <li><i class="material-icons">grade</i> Comodo</li>
-                        <li><i class="material-icons">grade</i> Perron</li>
-                        <li><i class="material-icons">grade</i> Veloz</li>
-                        <li><i class="material-icons">grade</i> La Onda</li>
-                        <li><i class="material-icons">grade</i> W.C.</li>
+                        <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
+                        <li><i class="material-icons">grade</i> Asientos reclinables</li>
+                        <li><i class="material-icons">grade</i> 6 Pantallas</li>
+                        <li><i class="material-icons">grade</i> Aire Acondicionado</li>
+                        <li><i class="material-icons">grade</i> Sanitario</li>
+                        <li><i class="material-icons">grade</i> Micrófono para guía</li>
+                        <li><i class="material-icons">grade</i> Audio y video</li>
                       </ul>
                     </div>
                     <div class="footer text-center">
@@ -105,21 +113,23 @@
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-sm-8">
-                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/bus1.png" alt="First slide">
+                <div class="col-sm-8 d-flex align-items-center">
+                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-pb.png" alt="First slide">
                 </div>
                 <div class="col-sm-4">
                   <div class="specs-container">
                     <div class="header text-center">
-                      Vehiculo DOOS
+                      IRIZAR PB
                     </div>
                     <div class="body">
                       <ul>
-                        <li><i class="material-icons">grade</i> Comodo</li>
-                        <li><i class="material-icons">grade</i> Perron</li>
-                        <li><i class="material-icons">grade</i> Veloz</li>
-                        <li><i class="material-icons">grade</i> La Onda</li>
-                        <li><i class="material-icons">grade</i> W.C.</li>
+                        <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
+                        <li><i class="material-icons">grade</i> Asientos reclinables</li>
+                        <li><i class="material-icons">grade</i> 3 Pantallas</li>
+                        <li><i class="material-icons">grade</i> Aire Acondicionado</li>
+                        <li><i class="material-icons">grade</i> Sanitario</li>
+                        <li><i class="material-icons">grade</i> Micrófono para guía</li>
+                        <li><i class="material-icons">grade</i> Audio y video</li>
                       </ul>
                     </div>
                     <div class="footer text-center">
@@ -132,21 +142,78 @@
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-sm-8">
-                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/bus1.png" alt="First slide">
+                <div class="col-sm-8 d-flex align-items-center">
+                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-nc.png" alt="First slide">
                 </div>
                 <div class="col-sm-4">
                   <div class="specs-container">
                     <div class="header text-center">
-                      Vehiculo TREEES
+                      IRIZAR NC
                     </div>
                     <div class="body">
                       <ul>
-                        <li><i class="material-icons">grade</i> Comodo</li>
-                        <li><i class="material-icons">grade</i> Perron</li>
-                        <li><i class="material-icons">grade</i> Veloz</li>
-                        <li><i class="material-icons">grade</i> La Onda</li>
-                        <li><i class="material-icons">grade</i> W.C.</li>
+                         <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
+                        <li><i class="material-icons">grade</i> Asientos reclinables</li>
+                        <li><i class="material-icons">grade</i> 3 Pantallas</li>
+                        <li><i class="material-icons">grade</i> Aire Acondicionado</li>
+                        <li><i class="material-icons">grade</i> Sanitario</li>
+                        <li><i class="material-icons">grade</i> Micrófono para guía</li>
+                        <li><i class="material-icons">grade</i> Audio y video</li>
+                      </ul>
+                    </div>
+                    <div class="footer text-center">
+                      <span class="button">Ver Diagrama</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-8 d-flex align-items-center">
+                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-sprinter.png" alt="First slide">
+                </div>
+                <div class="col-sm-4">
+                  <div class="specs-container">
+                    <div class="header text-center">
+                      SPRINTER
+                    </div>
+                    <div class="body">
+                      <ul>
+                         <li><i class="material-icons">grade</i> Capacidad para <strong>17</strong> y <strong>20</strong> personas</li>
+                        <li><i class="material-icons">grade</i> Asientos reclinables</li>
+                        <li><i class="material-icons">grade</i> 2 pantallas de plasma</li>
+                        <li><i class="material-icons">grade</i> Aire Acondicionado</li>
+                        <li><i class="material-icons">grade</i> Cajuela para equipaje</li>
+                        <li><i class="material-icons">grade</i> Micrófono para guía</li>  
+                        <li><i class="material-icons">grade</i> Audio y video</li>
+                      </ul>
+                    </div>
+                    <div class="footer text-center">
+                      <span class="button">Ver Diagrama</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-8 d-flex align-items-center">
+                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-hiace.png" alt="First slide">
+                </div>
+                <div class="col-sm-4">
+                  <div class="specs-container">
+                    <div class="header text-center">
+                      HIACE
+                    </div>
+                    <div class="body">
+                      <ul>
+                         <li><i class="material-icons">grade</i> Capacidad para 13 personas</li>
+                        <li><i class="material-icons">grade</i> Asientos reclinables</li>
+                        <li><i class="material-icons">grade</i> Aire Acondicionado</li>
+                        <li><i class="material-icons">grade</i> Audio y video</li>
                       </ul>
                     </div>
                     <div class="footer text-center">
