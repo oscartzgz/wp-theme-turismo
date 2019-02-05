@@ -131,6 +131,92 @@ header .call-us {
   z-index: -1;
 }
 
+#travelTypes{
+  padding: 150px 0;
+}
+
+#travelTypes .title {
+  text-transform: uppercase;
+  color: #FF5B5B;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#travelTypes .subtitle {
+  color: #9B9B9B;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#travelTypes .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-rows: repeat(auto-fill, 400px);*/
+  grid-auto-rows: 400px;
+  margin-top: 3em;
+}
+
+#travelTypes .content .item {
+  position: relative;
+  overflow: hidden;
+}
+
+#travelTypes .content .item .name {
+  bottom: 2em;
+  font-size: 1.4em;
+  overflow: hidden;
+  padding: .5em 2.3em;
+  position: absolute;
+  right: 0;
+}
+
+#travelTypes .content .item .resume {
+  color: white;
+  background-color: rgba(30, 30, 30, 0.7);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  padding: 1em;
+  font-size: 1.6em;
+  /*display: none;*/
+  /*animation-duration: 1s;
+  animation-name: slidein;*/
+  transition: all .4s linear;
+  opacity: 0;
+}
+
+#travelTypes .content .item:hover .resume {
+  display: block;
+  opacity: 1;
+}
+
+#travelTypes .content .item:nth-child(1) .name {
+  background: #32E1FF;
+}
+
+#travelTypes .content .item:nth-child(2) .name {
+  background: #32FF7E;
+}
+
+#travelTypes .content .item:nth-child(3) .name {
+  background: #FFEA32;
+}
+
+#travelTypes .content .item:nth-child(4) .name {
+  background: #FF324F;
+}
+
+#travelTypes .content .item:nth-child(5) .name {
+  background: #DA32FF;
+}
+
+#travelTypes .content .item:nth-child(6) .name {
+  background: #326BFF;
+}
+
 #travels{
   padding: 150px 0;
 }
@@ -338,3 +424,16 @@ header .call-us {
   background-color: yellow;
   color: black;
 }
+
+
+/*@keyframes slidein {
+  from {
+    left: 100%;*/
+    /*width: 300%*/
+/*  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/

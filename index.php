@@ -12,6 +12,63 @@
   </div>
 </section>
 
+
+<section id="travelTypes">
+  <div class="title">
+    Tu propio viaje
+  </div>
+  <div class="subtitle">
+    ¿Ya tienes a donde ir? Estamos a tu disposición
+  </div>
+
+  <div class="content">
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/service-item.jpg" alt="">
+      <div class="name">Turisticos</div>
+      <div class="resume">
+        Para tus viajes de excursiones y familiares
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/service-item.jpg" alt="">
+      <div class="name">Escolares y Culturales</div>
+      <div class="resume">
+        Contamos con todas las características y requisitos requeridos para tu seguridad en el viaje
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/service-item.jpg" alt="">
+      <div class="name">Religiosos</div>
+      <div class="resume">
+        Te llevamos a conocer lugares de devoción y de peregrinaje
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/service-item.jpg" alt="">
+      <div class="name">Eventos Especiales</div>
+      <div class="resume">
+        Políticos, deportivos, artisticos, no te pierdas de tus eventos favoritos
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/service-item.jpg" alt="">
+      <div class="name">Negocios</div>
+      <div class="resume">
+        La mejor opción para transporte y logística a congresos, meetings y eventos recreativos
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/service-item.jpg" alt="">
+      <div class="name">Descanso y de Placer</div>
+      <div class="resume">
+        Disfruta de unas excelentes vacaciones a cualquier parte de la república mexicana
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section id="travels">
   <div class="title">
     Nuestros Próximos Viajes
