@@ -104,7 +104,33 @@
                       </ul>
                     </div>
                     <div class="footer text-center">
-                      <span class="button">Ver Diagrama</span>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#diagramModal1">
+                        Diagrama
+                      </button>
+
+                      <!-- <span class="button" data-toggle="modal" data-target="#diagramModal1">Ver Diagrama</span> -->
+          
+                      <!-- Modal -->
+                      <div class="modal fade" id="diagramModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Ver Diagrama</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="<?php echo get_template_directory_uri() ?>/img/i8.png" alt="" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -133,7 +159,32 @@
                       </ul>
                     </div>
                     <div class="footer text-center">
-                      <span class="button">Ver Diagrama</span>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#diagramModal2">
+                        Diagrama
+                      </button>
+
+                      <!-- <span class="button" data-toggle="modal" data-target="#diagramModal1">Ver Diagrama</span> -->
+          
+                      <!-- Modal -->
+                      <div class="modal fade" id="diagramModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Ver Diagrama</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="<?php echo get_template_directory_uri() ?>/img/PB.png" alt="" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -162,7 +213,32 @@
                       </ul>
                     </div>
                     <div class="footer text-center">
-                      <span class="button">Ver Diagrama</span>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#diagramModal3">
+                        Diagrama
+                      </button>
+
+                      <!-- <span class="button" data-toggle="modal" data-target="#diagramModal1">Ver Diagrama</span> -->
+          
+                      <!-- Modal -->
+                      <div class="modal fade" id="diagramModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Ver Diagrama</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="<?php echo get_template_directory_uri() ?>/img/NC.png" alt="" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -181,7 +257,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                         <li><i class="material-icons">grade</i> Capacidad para <strong>17</strong> y <strong>20</strong> personas</li>
+                         <li><i class="material-icons">grade</i> Capacidad <strong>17</strong> y <strong>20</strong> personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> 2 pantallas de plasma</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
@@ -191,7 +267,58 @@
                       </ul>
                     </div>
                     <div class="footer text-center">
-                      <span class="button">Ver Diagrama</span>
+                      
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#diagramModal4" style="display: inline-block;">
+                        Diag. 17
+                      </button>
+
+                      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#diagramModal5" style="display: inline-block;">
+                        Diag. 20
+                      </button>
+
+                      <!-- <span class="button" data-toggle="modal" data-target="#diagramModal1">Ver Diagrama</span> -->
+          
+                      <!-- Modal -->
+                      <div class="modal fade" id="diagramModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Ver Diagrama</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="<?php echo get_template_directory_uri() ?>/img/sprinter_17.png" alt="" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="diagramModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Ver Diagrama</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="<?php echo get_template_directory_uri() ?>/img/sprinter_20.png" alt="" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -217,7 +344,32 @@
                       </ul>
                     </div>
                     <div class="footer text-center">
-                      <span class="button">Ver Diagrama</span>
+
+                      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#diagramModal6" style="display: inline-block;">
+                        Diagrama
+                      </button>
+
+                      <!-- <span class="button" data-toggle="modal" data-target="#diagramModal1">Ver Diagrama</span> -->
+          
+                      <!-- Modal -->
+                      <div class="modal fade" id="diagramModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Ver Diagrama</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="<?php echo get_template_directory_uri() ?>/img/hiace.png" alt="" width="100%">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

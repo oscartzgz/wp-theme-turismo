@@ -319,7 +319,7 @@ header .call-us {
   background-color: black;
   color: white;
   border-radius: 0 0 .25em .25em;
-  padding: .8em 2em 2em .8em;
+  padding: .8em 2em .8em 2em;
 
   position: absolute;
   bottom: 0;
