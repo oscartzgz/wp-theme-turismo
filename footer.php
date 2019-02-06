@@ -4,7 +4,7 @@
 
           <div class="col-lg-12 text-center fb-link-col">
 
-            <a href="https://www.facebook.com/profile.php?id=572584946208851" class="facebook-link">
+            <a href="https://www.facebook.com/benittur" class="facebook-link" target="_blank">
               <img src="<?php echo get_template_directory_uri() ?>/img/icon_fb_64x64.png" alt="facebook icon">
               BENITTUR en Facebook
             </a>

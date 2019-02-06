@@ -20,12 +20,15 @@
       </div>
 
       <div class="call-us text-center">
-        Llamanos 01 800 849 1438
+        <a href="tel:01-800-849-1438">Llámanos 01 800 849 1438</a>
       </div>
 
       <div class="menu-container">
         <nav class="menu">
           <ul class="row">
+            <li id="section1" class="col text-center" >
+              <a href="#travelTypes">Renta</a>
+            </li>
             <li id="section1" class="col text-center" >
               <a href="#travels">Viajes</a>
             </li>

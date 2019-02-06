@@ -18,13 +18,13 @@
     Nos adaptamos a tu viaje
   </div>
   <div class="subtitle">
-    ¿Ya tienes a donde ir? Nuestras unidades estan a tu disposición
+    ¿Ya tienes a donde ir? Nuestras unidades están a tu disposición
   </div>
 
   <div class="content">
     <div class="item">
       <img src="<?php echo get_template_directory_uri() ?>/img/turistic.jpg" alt="">
-      <div class="name">Turisticos</div>
+      <div class="name">Turísticos</div>
       <div class="resume">
         Para tus viajes de excursiones y familiares
       </div>
@@ -74,28 +74,33 @@
     Nuestros Próximos Viajes
   </div>
   <div class="subtitle">
-    Nunca antes viajar fue tan facil, ponte en contacto con nosotros
+    Nunca antes viajar fue tan fácil, ponte en contacto con nosotros
   </div>
 
-  <div class="content">
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/six_terros-02.png" alt="travel_image">
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/fresnillo-02.png" alt="travel_image">
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/basílica-02.png" alt="travel_image">
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/chiapas.png" alt="travel_image">
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/ixtapa.png" alt="travel_image">
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/chignahuapan-02.png" alt="travel_image">
-    </div>
+  <div class="content text-center">
+
+
+  <?php
+  $args = array('cat' => 2);
+  $category_posts = new WP_Query($args);
+  if($category_posts->have_posts()) :
+    while ($category_posts->have_posts()):
+      $category_posts->the_post();
+      ?>
+      <div class="item">
+        <?php
+          the_post_thumbnail( 'large' );
+        ?>
+      </div>
+      <?php
+        endwhile;
+        else :
+      ?>
+      <div class="text-center no-travels-info">¡Vaya!, en este momento no tenemos viajes disponibles. <br><br> Vuelve pronto.</div>
+      <?php
+        endif;
+      ?>
+
   </div>
 </section>
 
