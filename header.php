@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
   </head>
   <body>
-
+    
     <header>
       <div class="logo-container">
         <div class="row">
@@ -20,7 +20,7 @@
       </div>
 
       <div class="call-us text-center">
-        Llamanos 775 123 4567
+        Llamanos 01 800 849 1438
       </div>
 
       <div class="menu-container">

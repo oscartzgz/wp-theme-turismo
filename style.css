@@ -8,6 +8,12 @@ Author URI: https://oscartzgz.com
 
 @import url('https://fonts.googleapis.com/css?family=Faster+One');
 
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
 body{
   overflow-x: hidden;
 }
@@ -48,6 +54,7 @@ header .call-us {
   height: 100vh;
   padding: 150px 0;
   background-size: cover;
+  overflow: unset;
 }
 
 #agency .agency-logo{
@@ -91,20 +98,46 @@ header .call-us {
 }
 
 #footer{
-  background-color: #383838;
+  background-color: #232323;
   color: white;
-  padding: 2em;
+  padding: 100px 2em 2em 2em;
 }
 
 #footer .phone-number{
+  color: white;
+  text-decoration-line: none;
+  display: inline-block;
   font-size: 3.5em;
   font-weight: 600;
-  padding: .5em 1em;
-  margin: 3em;
+  padding: .4em 3em;
   text-align: center;
-  letter-spacing: .5em;
+  letter-spacing: .3em;
   background: rgba(255,255,255, .5);
   border-radius: 300px;
+  margin-bottom: .2em;
+}
+
+#footer .whatsapp-number{
+  font-size: 3em;
+  color: white;
+  text-decoration-line: none;
+}
+
+#footer .fb-link-col{
+  margin-bottom: 1.5em;
+}
+
+#footer .facebook-link{
+  color: white;
+  font-size: 1.6em;
+}
+
+#footer .facebook-link img{
+  height: 32px;
+}
+
+#footer .copyright-container{
+  margin-top: 3em;
 }
 
 #home-video{
@@ -133,6 +166,7 @@ header .call-us {
 
 #travelTypes{
   padding: 150px 0;
+  background-image: url(img/traveltypes_pattern.png);
 }
 
 #travelTypes .title {
@@ -225,20 +259,23 @@ header .call-us {
 
 #travels{
   padding: 150px 0;
+  background-image: url(img/travel_pattern.png);
 }
 
 #travels .title {
+  background-color: rgba(20, 20, 20, 0.7);
   text-transform: uppercase;
-  color: #FF5B5B;
+  color: white;
   font-size: 4em;
   font-weight: bold;
   text-align: center;
 }
 
 #travels .subtitle {
-  color: #9B9B9B;
+  color: white;
   font-size: 1.7em;
   text-align: center;
+  background-color: rgba(20, 20, 20, 0.85);
 }
 
 #travels .content {

@@ -15,10 +15,10 @@
 
 <section id="travelTypes">
   <div class="title">
-    Tu propio viaje
+    Nos adaptamos a tu viaje
   </div>
   <div class="subtitle">
-    ¿Ya tienes a donde ir? Estamos a tu disposición
+    ¿Ya tienes a donde ir? Nuestras unidades estan a tu disposición
   </div>
 
   <div class="content">
