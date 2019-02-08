@@ -13,97 +13,6 @@
 </section>
 
 
-<section id="travelTypes">
-  <div class="title">
-    Nos adaptamos a tu viaje
-  </div>
-  <div class="subtitle">
-    ¿Ya tienes a donde ir? Nuestras unidades están a tu disposición
-  </div>
-
-  <div class="content">
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/turistic.jpg" alt="">
-      <div class="name">Turísticos</div>
-      <div class="resume">
-        Para tus viajes de excursiones y familiares
-      </div>
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/school.jpg" alt="">
-      <div class="name">Escolares y Culturales</div>
-      <div class="resume">
-        Contamos con todas las características y requisitos requeridos para tu seguridad en el viaje
-      </div>
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/religious.jpg" alt="">
-      <div class="name">Religiosos</div>
-      <div class="resume">
-        Te llevamos a conocer lugares de devoción y de peregrinaje
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/events.jpg" alt="">
-      <div class="name">Eventos Especiales</div>
-      <div class="resume">
-        Políticos, deportivos, artisticos, no te pierdas de tus eventos favoritos
-      </div>
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/business.jpg" alt="">
-      <div class="name">Negocios</div>
-      <div class="resume">
-        La mejor opción para transporte y logística a congresos, meetings y eventos recreativos
-      </div>
-    </div>
-    <div class="item">
-      <img src="<?php echo get_template_directory_uri() ?>/img/service-rest.jpg" alt="">
-      <div class="name">Descanso y de Placer</div>
-      <div class="resume">
-        Disfruta de unas excelentes vacaciones a cualquier parte de la república mexicana
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section id="travels">
-  <div class="title">
-    Nuestros Próximos Viajes
-  </div>
-  <div class="subtitle">
-    Nunca antes viajar fue tan fácil, ponte en contacto con nosotros
-  </div>
-
-  <div class="content text-center">
-
-
-  <?php
-  $args = array('cat' => 2);
-  $category_posts = new WP_Query($args);
-  if($category_posts->have_posts()) :
-    while ($category_posts->have_posts()):
-      $category_posts->the_post();
-      ?>
-      <div class="item">
-        <?php
-          the_post_thumbnail( 'large' );
-        ?>
-      </div>
-      <?php
-        endwhile;
-        else :
-      ?>
-      <div class="text-center no-travels-info">¡Vaya!, en este momento no tenemos viajes disponibles. <br><br> Vuelve pronto.</div>
-      <?php
-        endif;
-      ?>
-
-  </div>
-</section>
-
 <section id="units">
   <div class="background"></div>
   <div class="title">CONTAMOS CON LAS MEJORES UNIDADES</div>
@@ -115,7 +24,7 @@
 
   <div class="content">
     <div class="row">
-      <div class="col-sm-12 col-lg-8 offset-xl-2 ">
+      <div class="col-sm-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 ">
         
         <!-- Menu SLIDER -->
         <div class="menu-slider">
@@ -156,7 +65,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                        <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
+                        <li><i class="material-icons">grade</i> Capacidad 47 personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> 6 Pantallas</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
@@ -201,8 +110,8 @@
 
             <div class="carousel-item">
               <div class="row">
-                <div class="col-sm-8 d-flex align-items-center">
-                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-pb.png" alt="First slide">
+                <div class="col-sm-8 d-flex align-items-center text-center">
+                  <img class="d-block" src="<?php echo get_template_directory_uri() ?>/img/unit-pb.png" alt="First slide" style="max-height: 400px; width: auto; margin-left: auto; margin-right: auto;">
                 </div>
                 <div class="col-sm-4">
                   <div class="specs-container">
@@ -211,7 +120,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                        <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
+                        <li><i class="material-icons">grade</i> Capacidad 47 personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> 3 Pantallas</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
@@ -256,7 +165,7 @@
             <div class="carousel-item">
               <div class="row">
                 <div class="col-sm-8 d-flex align-items-center">
-                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-nc.png" alt="First slide">
+                  <img class="d-block" src="<?php echo get_template_directory_uri() ?>/img/unit-nc.png" alt="First slide" style="max-height: 400px; width: auto; margin-left: auto; margin-right: auto;">
                 </div>
                 <div class="col-sm-4">
                   <div class="specs-container">
@@ -265,7 +174,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                         <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
+                         <li><i class="material-icons">grade</i> Capacidad 47 personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> 3 Pantallas</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
@@ -310,7 +219,7 @@
             <div class="carousel-item">
               <div class="row">
                 <div class="col-sm-8 d-flex align-items-center">
-                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-sprinter.png" alt="First slide">
+                  <img class="d-block" src="<?php echo get_template_directory_uri() ?>/img/unit-sprinter.png" alt="First slide" style="max-height: 400px; width: auto; margin-left: auto; margin-right: auto;">
                 </div>
                 <div class="col-sm-4">
                   <div class="specs-container">
@@ -390,7 +299,7 @@
             <div class="carousel-item">
               <div class="row">
                 <div class="col-sm-8 d-flex align-items-center">
-                  <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/img/unit-hiace.png" alt="First slide">
+                  <img class="d-block" src="<?php echo get_template_directory_uri() ?>/img/unit-hiace.png" alt="First slide" style="max-height: 400px; width: auto; margin-left: auto; margin-right: auto;">
                 </div>
                 <div class="col-sm-4">
                   <div class="specs-container">
@@ -399,7 +308,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                         <li><i class="material-icons">grade</i> Capacidad para 13 personas</li>
+                         <li><i class="material-icons">grade</i> Capacidad 13 personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
                         <li><i class="material-icons">grade</i> Audio y video</li>
@@ -446,6 +355,101 @@
     </div>
   </div>
 </section>
+
+
+<section id="travels">
+  <div class="title">
+    Nuestros Próximos Viajes
+  </div>
+  <div class="subtitle">
+    Nunca antes viajar fue tan fácil, ponte en contacto con nosotros
+  </div>
+
+  <div class="content text-center">
+
+
+  <?php
+  $args = array('cat' => 2);
+  $category_posts = new WP_Query($args);
+  if($category_posts->have_posts()) :
+    while ($category_posts->have_posts()):
+      $category_posts->the_post();
+      ?>
+      <div class="item">
+        <?php
+          the_post_thumbnail( 'large' );
+        ?>
+      </div>
+      <?php
+        endwhile;
+        else :
+      ?>
+      <div class="text-center no-travels-info">¡Vaya!, en este momento no tenemos viajes disponibles. <br><br> Vuelve pronto.</div>
+      <?php
+        endif;
+      ?>
+
+  </div>
+</section>
+
+
+<section id="travelTypes">
+  <div class="title">
+    Nos adaptamos a tu viaje
+  </div>
+  <div class="subtitle">
+    ¿Ya tienes a donde ir? Nuestras unidades están a tu disposición
+  </div>
+
+  <div class="content">
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/turistic.jpg" alt="">
+      <div class="name">Turísticos</div>
+      <div class="resume">
+        Para tus viajes de excursiones y familiares
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/school.jpg" alt="">
+      <div class="name">Escolares y Culturales</div>
+      <div class="resume">
+        Contamos con todas las características y requisitos requeridos para tu seguridad en el viaje
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/religious.jpg" alt="">
+      <div class="name">Religiosos</div>
+      <div class="resume">
+        Te llevamos a conocer lugares de devoción y de peregrinaje
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/events.jpg" alt="">
+      <div class="name">Eventos Especiales</div>
+      <div class="resume">
+        Políticos, deportivos, artisticos, no te pierdas de tus eventos favoritos
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/business.jpg" alt="">
+      <div class="name">Negocios</div>
+      <div class="resume">
+        La mejor opción para transporte y logística a congresos, meetings y eventos recreativos
+      </div>
+    </div>
+    <div class="item">
+      <img src="<?php echo get_template_directory_uri() ?>/img/service-rest.jpg" alt="">
+      <div class="name">Descanso y de Placer</div>
+      <div class="resume">
+        Disfruta de unas excelentes vacaciones a cualquier parte de la república mexicana
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 <section id="agency" style="background-image: url('<?php echo get_template_directory_uri() ?>/img/agency2.jpg')">
   <div class="title">Viajes a tu medida</div>

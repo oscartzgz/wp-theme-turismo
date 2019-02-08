@@ -19,27 +19,48 @@
         </div>
       </div>
 
-      <div class="call-us text-center">
-        <a href="tel:01-800-849-1438">Llámanos 01 800 849 1438</a>
+
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2">
+          <div class="call-us text-center">
+            <a href="tel:01-800-849-1438">Llámanos 01 800 849 1438</a>
+          </div>
+          
+          <div class="menu-container">
+            <nav class="menu">
+              <ul class="row">
+                <li id="section1" class="col text-center" >
+                  <a href="#travelTypes">Renta</a>
+                </li>
+                <li id="section1" class="col text-center" >
+                  <a href="#travels">Viajes</a>
+                </li>
+                <li id="section1" class="col text-center" >
+                  <a href="#units">Unidades</a>
+                </li>
+                <li id="section1" class="col text-center" >
+                  <a href="#agency">Agencia</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="col-xl-2 text-right">
+          
+          <div class="social-container">
+            <a href="https://www.facebook.com/AutotransportesBenittur" target="_blank">
+              <img src="<?php echo get_template_directory_uri() ?>/img/facebook-2-32.png" alt="">
+            </a>
+
+            <a href="https://www.facebook.com/benittur" target="_blank">
+              <img src="<?php echo get_template_directory_uri() ?>/img/facebook-2-32.png" alt="">
+            </a>
+          </div>
+        </div>
       </div>
 
-      <div class="menu-container">
-        <nav class="menu">
-          <ul class="row">
-            <li id="section1" class="col text-center" >
-              <a href="#travelTypes">Renta</a>
-            </li>
-            <li id="section1" class="col text-center" >
-              <a href="#travels">Viajes</a>
-            </li>
-            <li id="section1" class="col text-center" >
-              <a href="#units">Unidades</a>
-            </li>
-            <li id="section1" class="col text-center" >
-              <a href="#agency">Agencia de viajes</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+
+
 
     </header>
