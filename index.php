@@ -29,19 +29,19 @@
         <!-- Menu SLIDER -->
         <div class="menu-slider">
           <ul class="row">
-            <li class="col text-center">
+            <li class="col-md col-4 text-center">
               <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(0);">IRIZAR i8</span>
             </li>
-            <li class="col text-center">
+            <li class="col-md col-4 text-center">
               <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(1);">IRIZAR PB</span>
             </li>
-            <li class="col text-center">
+            <li class="col-md col-4 text-center">
               <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(2);">IRIZAR NC</span>
             </li>
-            <li class="col text-center">
+            <li class="col-md col-4 text-center">
               <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(3);">SPRINTER</span>
             </li>
-            <li class="col text-center">
+            <li class="col-md col-4 text-center">
               <span class="button" href="#" onclick="jQuery('#carouselUnits').carousel(4);">HIACE</span>
             </li>
           </ul>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                        <li><i class="material-icons">grade</i> Capacidad 47 personas</li>
+                        <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> 6 Pantallas</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                        <li><i class="material-icons">grade</i> Capacidad 47 personas</li>
+                        <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> 3 Pantallas</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                         <li><i class="material-icons">grade</i> Capacidad 47 personas</li>
+                         <li><i class="material-icons">grade</i> Capacidad para 47 personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> 3 Pantallas</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
@@ -308,7 +308,7 @@
                     </div>
                     <div class="body">
                       <ul>
-                         <li><i class="material-icons">grade</i> Capacidad 13 personas</li>
+                         <li><i class="material-icons">grade</i> Capacidad para 13 personas</li>
                         <li><i class="material-icons">grade</i> Asientos reclinables</li>
                         <li><i class="material-icons">grade</i> Aire Acondicionado</li>
                         <li><i class="material-icons">grade</i> Audio y video</li>
@@ -460,10 +460,10 @@
   </div>
   <div class="content">
     <div class="row align-items-center">
-      <div class="col-lg-6 text-right">
+      <div class="col-lg-6 col-12 text-center text-md-right">
         <img class="agency-logo" src="<?php echo get_template_directory_uri() ?>/img/agencia_logo.png" alt="logo agencia sahagun">
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-12">
         <div class="copy">No te preocupes, nosotros nos encargamos de que tu experiencia sea la mejor. Nuestra agencia de viajes se encargará de resolver los problemas de transporte y alojamiento, puedes estar tranquilo.</div>
       </div>
     </div>

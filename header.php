@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title><?php // echo get_bloginfo( 'name' ); ?></title>
+    <title><?php echo get_bloginfo( 'name' ); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -28,7 +28,7 @@
           
           <div class="menu-container">
             <nav class="menu">
-              <ul class="row">
+              <ul class="row no-gutters">
                 <li id="section1" class="col text-center" >
                   <a href="#travelTypes">Renta</a>
                 </li>

@@ -15,7 +15,7 @@
         <div class="col-lg-12 text-center">
           <div>
             <a href="tel:01-800-849-1438" class="phone-number">
-              <i class="material-icons md-48">phone</i> 01 800 849 1438
+              <i class="material-icons sm-32 md-48">phone</i> 01 800 849 1438
             </a>
           </div>
         </div>
