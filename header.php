@@ -46,15 +46,17 @@
           </div>
         </div>
 
-        <div class="col-xl-2 text-right">
+        <div class="col-xl-2 text-center">
           
           <div class="social-container">
-            <a href="https://www.facebook.com/AutotransportesBenittur" target="_blank">
+            <a class="social-item" href="https://www.facebook.com/AutotransportesBenittur" target="_blank">
               <img src="<?php echo get_template_directory_uri() ?>/img/facebook-2-32.png" alt="">
+              <span>Autotransportes</span>
             </a>
 
-            <a href="https://www.facebook.com/benittur" target="_blank">
+            <a class="social-item" href="https://www.facebook.com/benittur" target="_blank">
               <img src="<?php echo get_template_directory_uri() ?>/img/facebook-2-32.png" alt="">
+              <span>Benittur</span>
             </a>
           </div>
         </div>
