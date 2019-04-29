@@ -1,28 +1,54 @@
     <footer id="footer">
       <div class="container">
-        <div class="row">
+        <div class="row footer-business-info">
+          <div class="col-lg-6">
 
-          <div class="col-lg-12 text-center fb-link-col">
+            <div class="row">
+              <div class="col-12">
+                <h5><strong>Benittur</strong></h5>
+                <p>Av. Independencia 17, Col. Plaza Vieja, Tepeapulco, Hgo. Lunes a Viernes 10:00-15:00 y 17:00-19:00 y Sábados 10:00-15:00</p>
+              </div>
 
-            <a href="https://www.facebook.com/benittur" class="facebook-link" target="_blank">
-              <img src="<?php echo get_template_directory_uri() ?>/img/icon_fb_64x64.png" alt="facebook icon">
-              BENITTUR en Facebook
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <a href="https://www.facebook.com/benittur" class="footer-social-item">
+              <img src="<?php echo get_template_directory_uri() ?>/img/64/facebook.png" alt="facebook">
+            </a>
+
+            <a href="https://twitter.com/benittur" class="footer-social-item">
+              <img src="<?php echo get_template_directory_uri() ?>/img/64/twitter.png" alt="facebook">
             </a>
           </div>
         </div>
+
+        <div class="row footer-business-info">
+          <div class="col-lg-6">
+            <h5><strong>Agencia de Viajes Sahagún</strong></h5>
+            <p>Av. Ignacio Allende S/N, Plaza Regia Local 13, Cd. Sahagún, Hgo., Lunes a Viernes 10:00-15:00- Sábados 10:00-15:00</p>
+          </div>
+          <div class="col-lg-6">
+            <a href="https://www.facebook.com/AutotransportesBenittur" class="footer-social-item">
+              <img src="<?php echo get_template_directory_uri() ?>/img/64/facebook.png" alt="facebook">
+            </a>
+
+
+          </div>
+        </div>
+
       </div>
       <div class="row">
         <div class="col-lg-12 text-center">
           <div>
             <a href="tel:01-800-849-1438" class="phone-number">
-              <i class="material-icons sm-32 md-48">phone</i> 01 800 849 1438
+              <i class="material-icons sm-32 md-32">phone</i> 01 800 849 1438
             </a>
           </div>
         </div>
 
         <div class="col-lg-12 text-center">
           <a href="https://wa.me/+525580214837?text=Hola%20me%20gustaría%20mas%20información%20sobre%20los%20viajes" class="whatsapp-number">
-            <img src="<?php echo get_template_directory_uri() ?>/img/icon_whatsapp_64x64.png" alt="whatsapp_icon"> 55 80 21 4837
+            <img src="<?php echo get_template_directory_uri() ?>/img/icon_whatsapp_64x64.png" alt="whatsapp_icon" style="width: 40px;"> 55 80 21 4837
           </a>
         </div>
 

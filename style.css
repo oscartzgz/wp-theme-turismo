@@ -6,16 +6,12 @@ Author URI: https://oscartzgz.com
 
 @import url("css/bootstrap.min.css");
 
-/*@import url('https://fonts.googleapis.com/css?family=Faster+One');*/
-/*@import url('https://fonts.googleapis.com/css?family=Rubik');*/
-/*@import url('https://fonts.googleapis.com/css?family=Gugi');*/
-/*@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');*/
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Nunito');
 
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-32 { font-size: 32px; }
 .material-icons.md-48 { font-size: 48px; }
 
 body{
@@ -131,16 +127,17 @@ header .call-us a{
 }
 
 #footer{
-  background-color: #232323;
+  background-color: #141414;
   color: white;
-  padding: 100px 2em 2em 2em;
+  padding: 100px 2em 1.2em 2em;
+  font-family: Nunito;
 }
 
 #footer .phone-number{
   color: white;
   text-decoration-line: none;
   display: inline-block;
-  font-size: 3.5em;
+  font-size: 2.4em;
   font-weight: 600;
   padding: .4em 3em;
   text-align: center;
@@ -148,10 +145,11 @@ header .call-us a{
   background: rgba(255,255,255, .5);
   border-radius: 300px;
   margin-bottom: .2em;
+  margin-top: 1em;
 }
 
 #footer .whatsapp-number{
-  font-size: 3em;
+  font-size: 2.2em;
   color: white;
   text-decoration-line: none;
 }
@@ -165,12 +163,19 @@ header .call-us a{
   font-size: 1.6em;
 }
 
-#footer .facebook-link img{
-  height: 32px;
-}
-
 #footer .copyright-container{
   margin-top: 3em;
+  font-size: 14px;
+}
+
+.footer-social-item img{
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+}
+
+.footer-business-info{
+  margin-bottom: 30px;
 }
 
 #home-video{
@@ -602,6 +607,12 @@ a.social-item:hover {
   #travelTypes .content {
     grid-template-columns: 1fr 1fr;
   }
+
+  #footer .phone-number {
+    font-size: 2em;
+    letter-spacing: .2em;
+    padding: .3em 1.2em;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -699,20 +710,6 @@ a.social-item:hover {
 
   #footer .whatsapp-number img{
     width: 40px;
-  }
-
-  #footer .phone-number{
-    color: white;
-    text-decoration-line: none;
-    display: inline-block;
-    font-size: 2.5em;
-    font-weight: 600;
-    padding: .4em .5em;
-    text-align: center;
-    letter-spacing: .1em;
-    background: rgba(255,255,255, .5);
-    border-radius: 300px;
-    margin-bottom: .2em;
   }
 
   #travels .title{
