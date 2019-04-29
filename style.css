@@ -6,7 +6,11 @@ Author URI: https://oscartzgz.com
 
 @import url("css/bootstrap.min.css");
 
-@import url('https://fonts.googleapis.com/css?family=Faster+One');
+/*@import url('https://fonts.googleapis.com/css?family=Faster+One');*/
+/*@import url('https://fonts.googleapis.com/css?family=Rubik');*/
+/*@import url('https://fonts.googleapis.com/css?family=Gugi');*/
+/*@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');*/
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
@@ -377,8 +381,9 @@ header .call-us a{
 }
 
 #welcome{
-  align-items: center;
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: auto auto;
   height: 100vh;
   overflow: hidden;
@@ -389,10 +394,14 @@ header .call-us a{
 }
 
 #welcome .big-message{
+  margin-top: 1em;
   color: white;
-  font-family: 'Faster One', cursive;
-  font-size: 6em;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 4em;
   text-shadow: 1px 1px 10px black;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 nav.menu{
@@ -433,7 +442,6 @@ nav.menu li a:hover{
 }
 
 .social-container{
-  padding-right: 2em;
   padding-top: 10px;
 }
 
@@ -446,7 +454,8 @@ nav.menu li a:hover{
 }
 
 a.social-item:hover {
-  color: inherit;
+  color: white;
+  text-decoration: none;
 }
 
 .social-item img{
@@ -669,9 +678,7 @@ a.social-item:hover {
 
 
   #welcome .big-message{
-    color: white;
-    font-family: 'Faster One', cursive;
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: 1px 1px 10px black;
   }
 
@@ -682,26 +689,33 @@ a.social-item:hover {
     margin-left: 0;
     z-index: 1000;
   }
-
-  .social-container{
-    padding-right: 0;
-    padding-top: 0;
-  }
 }
 
-@media (max-width: 992px, min-width: 577px) {
+@media (max-width: 992px) {
   #travels .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*grid-template-rows: repeat(auto-fill, 400px);*/
     grid-auto-rows: 56.25%;
-    margin-top: 3em;
+    margin-top: 4em;
+  }
+
+  #welcome .big-message{
+    font-size: 3em;
+    text-shadow: 1px 1px 10px black;
   }
 
 }
 
 @media (max-width: 992px) {
 
+}
+
+@media screen and (max-width: 1200px) {
+  #welcome .big-message {
+    font-size: 3em;
+  }
+  
   .social-container {
     text-align: center;
   }

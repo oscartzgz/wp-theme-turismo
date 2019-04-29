@@ -5,6 +5,7 @@
     <source src="<?php echo get_template_directory_uri() ?>/video/video.webm" type="video/webm">
   </video>
   <div class="pattern-overlay"></div>
+    
   <div class="row">
     <div class="col-lg-10 offset-lg-1 text-center">
       <h2 class="big-message">Los mejores viajes a tu alcance</h2>
