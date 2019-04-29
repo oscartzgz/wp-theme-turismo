@@ -22,6 +22,25 @@ body{
   overflow-x: hidden;
 }
 
+form .error {
+  background-color: #C90E0E;
+  color: white;
+  font-weight: bold;
+  padding: 3px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+form .success {
+  background-color: #509F3C;
+  color: white;
+  font-size: 1.2em;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
 header{
   background-color: black;
   position: fixed;
@@ -86,6 +105,11 @@ header .call-us a{
   font-size: 4em;
   font-weight: bold;
   text-align: center;
+}
+
+#agency .address {
+  background-color: rgba(255, 255, 255, .6);
+  padding: 20px 10px;
 }
 
 .subtitle.bg-white{
@@ -196,7 +220,7 @@ header .call-us a{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /*grid-template-rows: repeat(auto-fill, 400px);*/
-  grid-auto-rows: 400px;
+  grid-auto-rows: 56.25%;
   margin-top: 3em;
 }
 
@@ -530,11 +554,57 @@ a.social-item:hover {
 
 
 
+@media screen and (max-width: 1200px) {
+  #welcome .big-message {
+    font-size: 3em;
+  }
 
+  #travelTypes .content .item .resume {
+    font-size: 1.4em;
+  }
+  
+  .social-container {
+    margin-top: -10px;
+    padding: 0;
+    text-align: center;
+  }
 
+  .social-item {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 5px 5px;
+    border-radius: 4px;
+  }
+}
 
+@media screen and (max-width: 992px) {
+  #travels .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows: repeat(auto-fill, 400px);*/
+    grid-auto-rows: 56.25%;
+    margin-top: 4em;
+  }
 
-@media (max-width: 576px) {
+  #welcome .big-message{
+    font-size: 3em;
+    text-shadow: 1px 1px 10px black;
+  }
+
+  .logo-container img{
+    position: fixed;
+    top: 0;
+    width: 150px;
+    margin-left: 0;
+    z-index: 1000;
+  }
+
+  #travelTypes .content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
 
   .material-icons.sm-32 { font-size: 32px; }
 
@@ -650,9 +720,7 @@ a.social-item:hover {
   }
 
   #travels .content {
-    display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 56.25%;
   }
 
   #travelTypes .title{
@@ -663,8 +731,6 @@ a.social-item:hover {
   #travelTypes .content {
     display: grid;
     grid-template-columns: 1fr;
-    /*grid-template-rows: repeat(auto-fill, 400px);*/
-    grid-auto-rows: 250px;
     margin-top: 3em;
   }
 
@@ -688,42 +754,5 @@ a.social-item:hover {
     width: 65px;
     margin-left: 0;
     z-index: 1000;
-  }
-}
-
-@media (max-width: 992px) {
-  #travels .content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /*grid-template-rows: repeat(auto-fill, 400px);*/
-    grid-auto-rows: 56.25%;
-    margin-top: 4em;
-  }
-
-  #welcome .big-message{
-    font-size: 3em;
-    text-shadow: 1px 1px 10px black;
-  }
-
-}
-
-@media (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 1200px) {
-  #welcome .big-message {
-    font-size: 3em;
-  }
-  
-  .social-container {
-    text-align: center;
-  }
-
-  .social-item {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, .7);
-    padding: 5px 10px;
-    border-radius: 4px;
   }
 }

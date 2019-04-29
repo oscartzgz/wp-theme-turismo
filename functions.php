@@ -7,6 +7,7 @@
     // All scripts
     wp_enqueue_script( 'bootstrap',  get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array( 'jquery' ) );
     wp_enqueue_script( 'sitejs',  get_template_directory_uri() . '/js/site.js', array( 'jquery' ) );
+    wp_enqueue_script( 'smtpjs',  get_template_directory_uri() . '/js/smtp.js', array( 'jquery' ) );
   }
 
   add_action( 'wp_enqueue_scripts', 'themebenittur_enqueue_scripts' );

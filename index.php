@@ -358,42 +358,6 @@
 </section>
 
 
-<section id="travels">
-  <div class="title">
-    Nuestros Próximos Viajes
-  </div>
-  <div class="subtitle">
-    Nunca antes viajar fue tan fácil, ponte en contacto con nosotros
-  </div>
-
-  <div class="content text-center">
-
-
-  <?php
-  $args = array('cat' => 2);
-  $category_posts = new WP_Query($args);
-  if($category_posts->have_posts()) :
-    while ($category_posts->have_posts()):
-      $category_posts->the_post();
-      ?>
-      <div class="item">
-        <?php
-          the_post_thumbnail( 'large' );
-        ?>
-      </div>
-      <?php
-        endwhile;
-        else :
-      ?>
-      <div class="text-center no-travels-info">¡Vaya!, en este momento no tenemos viajes disponibles. <br><br> Vuelve pronto.</div>
-      <?php
-        endif;
-      ?>
-
-  </div>
-</section>
-
-
 <section id="travelTypes">
   <div class="title">
     Nos adaptamos a tu viaje
@@ -447,9 +411,55 @@
       </div>
     </div>
   </div>
+
+  <!-- Button trigger modal -->
+  <div class="row">
+    <div class="col-12 text-center">
+      <br>
+      <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#sendEmailModal">
+        SOLICITAR COTIZACIÓN DE MI VIAJE
+      </button>
+    </div>
+  </div>
+
 </section>
 
 
+
+<section id="travels">
+  <div class="title">
+    Nuestros Próximos Viajes
+  </div>
+  <div class="subtitle">
+    Nunca antes viajar fue tan fácil, ponte en contacto con nosotros
+  </div>
+
+  <div class="content text-center">
+
+
+  <?php
+  $args = array('cat' => 2);
+  $category_posts = new WP_Query($args);
+  if($category_posts->have_posts()) :
+    while ($category_posts->have_posts()):
+      $category_posts->the_post();
+      ?>
+      <div class="item">
+        <?php
+          the_post_thumbnail( 'large' );
+        ?>
+      </div>
+      <?php
+        endwhile;
+        else :
+      ?>
+      <div class="text-center no-travels-info">¡Vaya!, en este momento no tenemos viajes disponibles. <br><br> Vuelve pronto.</div>
+      <?php
+        endif;
+      ?>
+
+  </div>
+</section>
 
 
 <section id="agency" style="background-image: url('<?php echo get_template_directory_uri() ?>/img/agency2.jpg')">
@@ -466,6 +476,24 @@
       </div>
       <div class="col-lg-6 col-12">
         <div class="copy">No te preocupes, nosotros nos encargamos de que tu experiencia sea la mejor. Nuestra agencia de viajes se encargará de resolver los problemas de transporte y alojamiento, puedes estar tranquilo.</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="address">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-left">
+                
+                Av. Ignacio Allende S/N, Plaza Regia Local 13, Cd. Sahagún, Hgo.
+                <br>
+                Lunes a Viernes 10:00-15:00- Sábados 10:00-15:00
+              </div>
+            </div>
+          </div>
+          
+        </div>
       </div>
     </div>
   </div>

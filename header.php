@@ -21,7 +21,7 @@
 
 
       <div class="row">
-        <div class="col-xl-8 offset-xl-2">
+        <div class="col-lg-10 offset-lg-2 col-xl-8 offset-xl-2">
           <div class="call-us text-center">
             <a href="tel:01-800-849-1438">Llámanos 01 800 849 1438</a>
           </div>
