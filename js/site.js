@@ -122,7 +122,7 @@ jQuery(document).ready(function(){
 
       Email.send({
         SecureToken : "4c081548-d011-4da7-87ca-40cf01737804",
-        To : 'oscartzgz@gmail.com',
+        To : 'benittur@gmail.com',
         From : "contacto@benittur.com.mx",
         Subject : "Cotización viaje",
         Body : message
