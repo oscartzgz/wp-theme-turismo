@@ -150,5 +150,72 @@
       </div>
     </div>
 
+
+
+    <!-- Modal Formulario Agencia -->
+    <div class="modal fade" id="sendEmailAgencyModal" tabindex="-1" role="dialog" aria-labelledby="sendEmailAgencyModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="sendEmailAgencyLabel">Solicitar Cotización</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <form id="agencyForm" action="/" method="post" >
+
+              <div class="row">
+
+                <div class="col-md-12">
+                
+                  <div class="form-group">
+                    <label for="aformName">Nombre</label>
+                    <input type="text" id="aformName" name="name" class="form-control" required >
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="aformPhone">Telefono</label>
+                    <input type="phone" id="aformPhone" name="phone" class="form-control" required >
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="aformEmail">Email</label>
+                    <input type="email" id="aformEmail" name="email" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="aformDescription">Descripción del servicio</label>
+                    <textarea id="aformDescription" name="description" class="form-control" required ></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 text-center">
+                  <span class="error d-none"></span>
+                  <span class="success d-none"></span>
+                </div>
+                <div class="col-12">
+                  <button id="sendEmailAgencyButton" type="submit" name="submit" class="btn btn-primary btn-lg btn-block">Solicitar Cotización</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- <div class="modal-footer"> -->
+            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>

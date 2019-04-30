@@ -416,7 +416,7 @@
   <div class="row">
     <div class="col-12 text-center">
       <br>
-      <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#sendEmailModal">
+      <button type="button" class="btn btn-lg call-to-action-button" data-toggle="modal" data-target="#sendEmailModal">
         SOLICITAR COTIZACIÓN DE MI VIAJE
       </button>
     </div>
@@ -483,12 +483,17 @@
       <div class="col-12 text-center">
         <div class="address">
           <div class="container">
-            <div class="row">
-              <div class="col-12 text-left">
+            <div class="row align-items-center">
+              <div class="col-md-6 text-left">
                 
                 Av. Ignacio Allende S/N, Plaza Regia Local 13, Cd. Sahagún, Hgo.
                 <br>
                 Lunes a Viernes 10:00-15:00- Sábados 10:00-15:00
+              </div>
+              <div class="col-md-6">
+                <button type="button" class="btn btn-lg call-to-action-button" data-toggle="modal" data-target="#sendEmailAgencyModal">
+                  QUIERO VIAJAR
+                </button>
               </div>
             </div>
           </div>
